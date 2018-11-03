@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+ <!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN"
+       "http://jakarta.apache.org/struts/dtds/tiles-config_1_1.dtd">
+<tiles-definitions>
+
+    <definition name="Zoho definition">
+    </definition>
+    <definition name="baseLayout" path="/baseLayout.jsp">
+        <put name="title"  value="Tiles Example" />
+        <put name="header" value="/header.jsp" />
+        <put name="menu"   value="/menu.jsp" />
+        <put name="body"   value="/body.jsp" />
+        <!--<put name="footer" value="/footer.jsp" />        -->
+    </definition>
+    <definition name="Register" extends="baseLayout">
+        <put name="title" value="Register" />
+        <put name="body" value="/FrontEndDesign.jsp" />
+    </definition>
+    <definition name="View" extends="baseLayout">
+        <put name="title" value="View" />
+        <put name="body" value="/jspDatabase.jsp" />
+    </definition>
+    <definition name="RegisterProcess" extends="baseLayout">
+        <put name="title" value="RegisterProcess" />
+        <put name="body" value="/final.jsp"/>
+    </definition>
+    <definition name="slotPage" extends="baseLayout">
+        <put name="title" value="slotPage"/>
+        <put name="body" value="/slotPage.jsp"/>
+    </definition>
+</tiles-definitions>
