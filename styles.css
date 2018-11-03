@@ -1,0 +1,39 @@
+.form-input{
+        width:300px;
+        padding: 8px;
+        margin: 5px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+.button {
+        display: inline-block;
+        background-color: #f4430f;
+        color: white;
+        padding: 14px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 25%;
+    }
+
+.container {
+    padding: 2px 16px;
+}
+.align {
+    margin: 121px 0px;
+}
+.body-text{	
+		margin:8% auto;
+		font-size:50px;
+		Color: #FFF000;
+		text-align:center;
+}
+#view-table{
+    margin: 215px 0px;
+    position: absolute; /* Stay in place */
+    left: 19%;
+    top: 0;
+    width: 78%; /* Full width */
+    overflow: auto; /* Enable scroll if needed */
+}
